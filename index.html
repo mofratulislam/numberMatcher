@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>Number Matcher</title>
+</head>
+<body >
+    <div class="container">
+    <h3>Guess the correct number between <span id="num1"></span> and <span id="num2"></span></h3>
+    <div class="container">
+        <button id="play-game" class="btn btn-primary"> Play </button>
+    </div>
+    <div class="container">
+        <h2 id="correct-statement"> The correct answer is <span id="correct-answer"></span> </h2>
+    </div>
+    <div class="container" id="win-container">
+         <h3 >You Won!</h3> 
+         <a class="btn btn-success" href="./index.html"> play again</a>
+    </div>
+    <div class="container" id="lost-container">
+        <h3 >You Lost!</h3>
+        <a href="index.html"  class="btn btn-danger"> Try again </a>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>

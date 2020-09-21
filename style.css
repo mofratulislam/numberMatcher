@@ -1,0 +1,23 @@
+
+.container{
+    margin: 30px;
+}
+
+body{
+    text-align: center;
+}
+#win-container{
+    color: green ; display: none;
+}
+#lost-container{
+    color: red ; display: none;
+}
+
+#correct-statement{
+    display: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
